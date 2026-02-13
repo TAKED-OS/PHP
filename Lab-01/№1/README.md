@@ -137,3 +137,31 @@ GET-специально предназначен для извлечения д
 # Задание 2. Анализ HTTP-запросов. Часть 2
 
 https://en.wikipedia.org/wiki/Special:Search
+
+<img width="1858" height="921" alt="image" src="https://github.com/user-attachments/assets/b40bf104-15fa-4efe-91ca-1298136ea092" />
+
+## Запрос поиска:
+
+<img width="849" height="27" alt="image" src="https://github.com/user-attachments/assets/16ec7fb9-1ad2-472e-9528-3cbc3b46de51" />
+
+## Изучите следующие аспекты:
+  ### URL запроса. Какой URL используется для выполнения поиска?
+   URL запроса: https://en.wikipedia.org/w/index.php?search=browser+intitle%3ABrowser&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%22fields%22%3A%7B%22plain%22%3A%5B%22browser%22%5D%2C%22intitle%22%3A%22Browser%22%7D%7D&ns0=1 
+  
+  ### Метод запроса. Почему используется именно этот метод?
+  Метод запроса-GET. Используется метод GET Потому что это получение данных, поиск ничего не изменяет на сервере, он просто запрашивает информацию.А по стандарту HTTP:GET-получение данных
+  
+  ### Query Parameters. Какие параметры передаются в запросе, что они означают и для чего используются?
+
+  В поисковом запросе к ресурсу /w/index.php используются Query Parameters, которые передаются в URL после символа ?. В данном запросе присутствуют следующие параметры:
+    
+    1. search=browser- Передаёт поисковый запрос пользователя.Используется для определения слова или фразы, по которым выполняется поиск.
+
+    2. title=Special:Search- Указывает, что выполняется переход на специальную страницу поиска Википедии.
+
+    3. advancedSearch-current={...}- Содержит параметры расширенного поиска (например, поиск в заголовке статьи).Используется для уточнения условий поиска.
+
+    4. ns0=1- Указывает пространство имён (namespace), в котором выполняется поиск.ns0 означает основной раздел статей.
+<img width="736" height="234" alt="image" src="https://github.com/user-attachments/assets/13abddc8-7539-4ebe-b3a3-b076c8cdfca7" />
+
+
