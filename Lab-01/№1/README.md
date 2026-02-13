@@ -1,6 +1,6 @@
 # Анализ HTTP-запросов. Часть 1
 
-<img width="1862" height="916" alt="image" src="https://github.com/user-attachments/assets/b245524d-cd42-4030-b3f7-0afae39e1973" />
+<img width="1858" height="923" alt="image" src="https://github.com/user-attachments/assets/17e61139-9658-4ffb-a85e-f04ed34b5d39" />
 
 ## 1.URL запроса: 
 
