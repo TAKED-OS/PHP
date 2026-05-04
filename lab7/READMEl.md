@@ -301,7 +301,7 @@ tired  → 😴
 ---
 
 ## Сравнение двух подходов
-
+<img width="1137" height="858" alt="image" src="https://github.com/user-attachments/assets/8e5dac95-a51b-48f4-b6f4-7a00472ee9d9" />
 ### Нативные PHP-шаблоны
 
 Преимущества:
@@ -319,6 +319,7 @@ tired  → 😴
 ---
 
 ### Twig
+<img width="1142" height="845" alt="image" src="https://github.com/user-attachments/assets/8f56d0b6-742d-4e85-b5cd-1cd009040de5" />
 
 Преимущества:
 
